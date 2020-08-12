@@ -1,4 +1,0 @@
-/*
-KMP algorithm
-RabinKarp Algorithm
-*/
