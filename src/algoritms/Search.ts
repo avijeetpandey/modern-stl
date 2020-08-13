@@ -8,7 +8,6 @@ const binary_search = (key: any, array: Array<any>) => {
   array = array.sort();
   console.log(array);
   let end = array.length - 1;
-  console.log(end);
   let start = 0;
   while (start <= end) {
     let mid = start + (end - start) / 2;
@@ -40,4 +39,4 @@ const min_max=()=>{
 
 }
 
-export { search, binary_search,upper_bound,lower_bound };
+export { search, binary_search,upper_bound,lower_bound,max_element,min_element,min_max};
