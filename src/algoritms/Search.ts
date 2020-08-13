@@ -19,4 +19,25 @@ const binary_search = (key: any, array: Array<any>) => {
   return -1;
 };
 
-export { search, binary_search };
+
+const upper_bound=()=>{
+
+}
+
+const lower_bound=()=>{
+
+}
+
+const max_element = ()=>{
+
+}
+
+const min_element=()=>{
+
+}
+
+const min_max=()=>{
+
+}
+
+export { search, binary_search,upper_bound,lower_bound };
