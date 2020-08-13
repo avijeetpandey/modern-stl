@@ -2,3 +2,5 @@ node_modules
 plan.md
 test.js
 .env
+test.ts
+test.js

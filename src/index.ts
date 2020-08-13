@@ -1,5 +1,6 @@
-import {search} from './algoritms/Search'
+import {search,binary_search} from './algoritms/Search'
 
 export {
-    search
+    search,
+    binary_search
 }
