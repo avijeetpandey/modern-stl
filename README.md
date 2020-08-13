@@ -1,4 +1,4 @@
-## Advanced Datastructures and algorithms using Javascript , Inspired by C++ STL :tada:
+## Advanced Datastructures and algorithms using Typescript and Javascript , Inspired by C++ STL :tada:
 This package contains implementations of various searching,sorting, mathematics and geometrical algorithms , alongwith implementation of some advanced data structures like segment trees , FFT , DSU , Fenwick Tree etc
 
 ### Datastructures Implemented :muscle:
@@ -11,7 +11,7 @@ This package contains implementations of various searching,sorting, mathematics 
 - Fenwick Tree
 - Graph
 - HashMap
-- Set (Renamed to SuperSet to avoid conflict)
+- Set (Renamed to HashSet to avoid conflict)
 - Heap 
   - MinHeap
   - MaxHeap
@@ -26,3 +26,4 @@ This package contains implementations of various searching,sorting, mathematics 
 - Geometrical Algorithms
 - Common Mathematics Algorithms 
 - String Processing Algorithms
+- Bit Manipulation Algorithms
