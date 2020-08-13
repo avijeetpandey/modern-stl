@@ -89,5 +89,11 @@ const isVowel=(item:String)=>{
 
 // function to check is consonant
 const isConsonant=(item:String)=>{
+
+}
+
+
+/* common date based utitlity functions */
+const isLeapYear = (number : Number)=>{
     
 }
