@@ -7,7 +7,8 @@ This package contains implementations of various searching,sorting, mathematics 
 
 ### Datastructures Implemented :muscle:
 - BST
-- Pair
+- Pair ( Inspired from C++ STL)
+- Triplet (New Just an addon over Pair Class)
 - LinkedList
   - DoublyLinked List
   - Circular LinkedList
