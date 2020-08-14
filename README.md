@@ -10,8 +10,6 @@ This package contains implementations of various searching,sorting, mathematics 
 - Pair ( Inspired from C++ STL)
 - Triplet (New Just an addon over Pair Class)
 - LinkedList
-  - DoublyLinked List
-  - Circular LinkedList
 - Dequeue
 - DSU (Disjoint Set Union)
 - Fenwick Tree
