@@ -31,6 +31,8 @@ import {
 } from './utils/Utils';
 
 
+/*  Data structures import  */
+import {Pair} from './ds/Pair'
 
 export {
     search,
@@ -56,5 +58,6 @@ export {
     accumulate,
     reverse_till,
     distance,
-    count
+    count,
+    Pair,
 }
