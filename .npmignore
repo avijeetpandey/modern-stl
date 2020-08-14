@@ -1,3 +1,11 @@
 README.md
 test/
 src/
+.env
+plan.md
+test.js
+test.ts
+tsconfig.json
+node_modules
+.npmignore
+.gitignore
