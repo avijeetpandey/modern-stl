@@ -1,12 +1,8 @@
 /*
-Swap function , Min , Max function ,  reverse_till , accumulate , count , next_permutation , distance , even , odd , isMultiple , isPower 
+ Min , Max function ,  reverse_till , accumulate , count , next_permutation , distance , even , odd , isMultiple , isPower 
 isAlphaNumeric , isVowel , isConsonant , isPrime ,  
 */
 
-// Implementation of swap function , that interchanges the value 
-const swap=(first : any , second :any)=>{
-    [first,second] = [second,first]
-}
 
 // function to calculate minimum of two values
 const min=(first:Number,second:Number)=>{
@@ -78,8 +74,13 @@ const isPerfectSquare=(number:Number)=>{
 }
 
 // function to check is prime
-const isPrime=(number:Number)=>{
+const isPrime=(number:number)=>{
+    for(let i=2;i<number;i++){
+        if(number%i===0)
+            return false;
 
+    }
+    return true;
 }
 
 // function to square numbers
@@ -122,8 +123,8 @@ export {
     max,
     min,
     square,
-    swap,
     accumulate,
     reverse_till,
     distance,
+    count
 }

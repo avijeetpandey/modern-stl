@@ -24,10 +24,10 @@ import {
     max,
     min,
     square,
-    swap,
     accumulate,
     reverse_till,
-    distance
+    distance,
+    count
 } from './utils/Utils';
 
 
@@ -53,8 +53,8 @@ export {
     max,
     min,
     square,
-    swap,
     accumulate,
     reverse_till,
-    distance
+    distance,
+    count
 }
