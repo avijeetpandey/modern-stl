@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/avijeetpandey/stl-js#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
   }
 }
