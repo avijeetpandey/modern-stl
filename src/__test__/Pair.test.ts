@@ -6,5 +6,6 @@ describe('Pair tests', () => {
 
         expect(pair.first).toBe('Hi mom!');
         expect(pair.second).toBe(42);
+        expect(pair.toString()).toBe("Hi mom! 42")
     });
 })
