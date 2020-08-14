@@ -5,33 +5,33 @@ isAlphaNumeric , isVowel , isConsonant , isPrime ,
 
 
 // function to calculate minimum of two values
-const min=(first:Number,second:Number)=>{
+const min=(first:number,second:number)=>{
     if(first<second)
         return first
     return second
 }
 
 //function to calculate maximum of two values
-const max=(first:Number,second:Number)=>{
+const max=(first:number,second:number)=>{
     if(first>second)
         return first
     return second
 }
 
 // function to process reversing upto certain end points
-const reverse_till=(item:Array<any>,end_point:Number)=>{
+const reverse_till=(item:Array<any>,end_point:number)=>{
     
 }
 
 // function to process accumulation of items inside a list
-const accumulate=(item:Array<Number>,initial_value : any=0)=>{
+const accumulate=(item:Array<any>,initial_value : any=0)=>{
     for(let number of item)
         initial_value+=number
     return initial_value
 }
 
 // function to count occurences 
-const count=(key:Number,ls:any)=>{
+const count=(key:number,ls:any)=>{
     let c = 0
     for(let item of ls)
         if(item===key)
@@ -64,12 +64,12 @@ const isMultipleOf=(first : number,second:number)=>{
 }
 
 // function to check is power of
-const isPowerOf=(first:Number ,second:Number)=>{
+const isPowerOf=(first:number ,second:number)=>{
 
 }
 
 // function to check perfect square
-const isPerfectSquare=(number:Number)=>{
+const isPerfectSquare=(number:number)=>{
 
 }
 
@@ -89,7 +89,7 @@ const square=(n : number)=> n*n
 /* common character based utility functions */
 
 //function to check is alphanumeric
-const isAlphaNumeric=(item : any)=>{
+const isAlphaNumeric=(item : string)=>{
 
 }
 
@@ -105,7 +105,7 @@ const isConsonant=(item:String)=>{
 
 
 /* common date based utitlity functions */
-const isLeapYear = (number : Number)=>{
+const isLeapYear = (number : number)=>{
 
 }
 
