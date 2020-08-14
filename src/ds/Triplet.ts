@@ -1,11 +1,4 @@
 /* Implementtaion of Triplet class  */
-
-/**
- * Get All elments , first second third
- * to List
- * to string
- */
-
 export class Triplet<F, S, T> {
   private _first: F;
   private _second: S;
