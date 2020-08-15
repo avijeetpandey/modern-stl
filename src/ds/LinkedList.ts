@@ -145,4 +145,11 @@ export class LinkedList<T> implements ILinkedList<T>{
     public toString():string {
         return this.list().toString()
     }
+
+    public fromList(list:T[]) : number {  
+        list.forEach((value:T)=>{
+            this.insertAtEnd(value)
+        })
+        return this.size()
+    }
 }
