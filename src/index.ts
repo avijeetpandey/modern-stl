@@ -33,6 +33,7 @@ import {
 
 /*  Data structures import  */
 import {Pair} from './ds/Pair'
+import {Triplet} from './ds/Triplet'
 
 export {
     search,
@@ -60,4 +61,5 @@ export {
     distance,
     count,
     Pair,
+    Triplet
 }

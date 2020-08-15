@@ -1,7 +1,7 @@
-import {LinkedList} from '../src/ds/LinkedList'
+// import {LinkedList} from '../src/ds/LinkedList'
 
-describe('LinkedList Test',()=>{
-    test('init',()=>{
+// describe('LinkedList Test',()=>{
+//     test('init',()=>{
         
-    })
-})
+//     })
+// })

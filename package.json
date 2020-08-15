@@ -1,9 +1,9 @@
 {
   "name": "modern-stl",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Implementations of data structures and algorithms , inspired by C++ STL in javascript",
-  "main": "lib/index.js",
-  "types": "lib",
+  "main": "lib/src/index.js",
+  "types": "lib/src/",
   "scripts": {
     "build": "tsc -p .",
     "test": "npx jest"
