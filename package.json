@@ -1,6 +1,6 @@
 {
   "name": "modern-stl",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Implementations of data structures and algorithms , inspired by C++ STL in javascript",
   "main": "lib/index.js",
   "types": "lib",

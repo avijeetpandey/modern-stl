@@ -86,6 +86,22 @@ const isPrime=(number:number)=>{
 // function to square numbers
 const square=(n : number)=> n*n
 
+
+// function to make pythagorean triplets
+const make_triplets=(n:number)=>{
+    let a,b,c
+    if(n%2===0){
+       a =n
+       b = (n/2 * n/2) + 1
+       c = (n/2 * n/2 ) - 1
+       return [a,b,c]
+    }
+     a = n
+     b = (n*n/2 - 0.5)
+     c = (n*n/2 + 0.5)
+    return [a,b,c]
+}
+
 /* common character based utility functions */
 
 //function to check is alphanumeric
@@ -126,5 +142,6 @@ export {
     accumulate,
     reverse_till,
     distance,
-    count
+    count,
+    make_triplets
 }

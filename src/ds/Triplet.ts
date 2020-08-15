@@ -32,4 +32,5 @@ export class Triplet<F, S, T> {
     let ls = [this._first, this._second, this._third];
     return ls;
   }
+
 }
