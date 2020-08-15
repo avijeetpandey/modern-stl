@@ -1,4 +1,4 @@
-import { Triplet } from "../src/ds/Triplet"
+import { Triplet } from "../src/ds/Triplet";
 
 describe("Triplet Tests ", () => {
   test("Init", () => {

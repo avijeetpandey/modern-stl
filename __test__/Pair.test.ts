@@ -1,4 +1,4 @@
-import {Pair} from './../src/ds/Pair'
+import { Pair } from "./../src/ds/Pair";
 
 describe("Pair tests", () => {
   test("Init", () => {
