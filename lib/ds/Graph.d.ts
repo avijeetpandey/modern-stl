@@ -1,5 +1,5 @@
 /**
- * Implementation of Generic Graph class using Typescript
+ * @author {Avijeet Pandey}
  */
 interface G<T> {
 }

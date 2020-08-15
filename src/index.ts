@@ -37,6 +37,10 @@ import {Triplet} from './ds/Triplet'
 import {LinkedList} from './ds/LinkedList'
 import {Stack} from './ds/Stack'
 
+/**
+ * Utility Functions Export
+ */
+
 export {
     search,
     binary_search,
@@ -61,9 +65,16 @@ export {
     accumulate,
     reverse_till,
     distance,
-    count,
-    Pair,
-    Triplet,
-    LinkedList,
-    Stack
+    count, 
+}
+
+
+/** 
+ * Data Structures Export
+ */
+export {
+  Pair,
+  Triplet,
+  LinkedList,
+  Stack
 }

@@ -1,3 +1,6 @@
+/**
+ * @author {Avijeet Pandey}
+ */
 export declare class Pair<U, V> {
     private _first;
     private _second;

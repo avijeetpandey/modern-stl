@@ -1,3 +1,6 @@
+/**
+ * @author {Avijeet Pandey}
+ */
 export declare class Triplet<F, S, T> {
     private _first;
     private _second;
