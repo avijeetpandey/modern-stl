@@ -1,6 +1,6 @@
 /*
  Min , Max function ,  reverse_till , accumulate , count , next_permutation , distance , even , odd , isMultiple , isPower 
-isAlphaNumeric , isVowel , isConsonant , isPrime ,  
+isAlphaNumeric , isVowel , isConsonant , isPrime , generate with parameters , make_triplets   
 */
 
 

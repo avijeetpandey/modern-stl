@@ -96,7 +96,7 @@ export class LinkedList<T> implements ILinkedList<T>{
             linkedList.push(node.data)
             return node.next ? add(node.next) : linkedList
         }
-        return linkedList
+        return add(this.head)
     }
 
     /**

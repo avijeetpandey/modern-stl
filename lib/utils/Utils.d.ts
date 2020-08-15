@@ -11,9 +11,10 @@ declare const isPowerOf: (first: number, second: number) => void;
 declare const isPerfectSquare: (number: number) => void;
 declare const isPrime: (number: number) => boolean;
 declare const square: (n: number) => number;
+declare const make_triplets: (n: number) => number[];
 declare const isAlphaNumeric: (item: string) => void;
 declare const isVowel: (item: String) => void;
 declare const isConsonant: (item: String) => void;
 declare const isLeapYear: (number: number) => void;
-export { isAlphaNumeric, isEven, isConsonant, isLeapYear, isMultipleOf, isOdd, isPerfectSquare, isPowerOf, isPrime, isVowel, max, min, square, accumulate, reverse_till, distance, count };
+export { isAlphaNumeric, isEven, isConsonant, isLeapYear, isMultipleOf, isOdd, isPerfectSquare, isPowerOf, isPrime, isVowel, max, min, square, accumulate, reverse_till, distance, count, make_triplets };
 //# sourceMappingURL=Utils.d.ts.map
