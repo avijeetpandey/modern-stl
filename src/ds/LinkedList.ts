@@ -37,7 +37,7 @@ export class LinkedList<T> implements ILinkedList<T> {
    * @returns {node} inserted Node
    */
   public insertAtBegin(data: T): Node<T> {
-    const node = new Node(data);
+    const node = new Node<T>(data);
     if (!this.head) {
       this.head = new Node(data);
     } else {

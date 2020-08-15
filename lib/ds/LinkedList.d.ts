@@ -14,7 +14,7 @@ export declare class Node<T> {
 interface ILinkedList<T> {
     insertAtBegin(data: T): Node<T>;
     insertAtEnd(data: T): Node<T>;
-    deleteNode(data: Node<T>): void;
+    deleteNode(data: T): boolean;
     find(data: T): boolean;
     findIndex(data: T): number;
     size(): number;
@@ -42,7 +42,7 @@ export declare class LinkedList<T> implements ILinkedList<T> {
      * @params {data} -> data to be deleted
      * @returns {void}
      */
-    deleteNode(node: Node<T>): void;
+    deleteNode(data: T): boolean;
     /**
      * @returns {T[]} list of Nodes in the linked list
      */
@@ -67,6 +67,7 @@ export declare class LinkedList<T> implements ILinkedList<T> {
      * @returns {list to elements as string}
      */
     toString(): string;
+    fromList(list: T[]): number;
 }
 export {};
 //# sourceMappingURL=LinkedList.d.ts.map
