@@ -17,7 +17,7 @@
 interface ILinkedList<T>{
     insertAtBegin(data:T) : Node<T>
     insertAtEnd(data:T) : Node<T>
-    deleteNode(data:Node<T>) : void
+    deleteNode(data:T) : boolean
     find(data:T) : boolean
     findIndex(data:T) : number
     size() : number
@@ -75,13 +75,21 @@ export class LinkedList<T> implements ILinkedList<T>{
      * @params {data} -> data to be deleted
      * @returns {void}
      */
-    public deleteNode(node:Node<T>) : void{
-        if(!node.prev){
-            this.head = node.next
-        }else{
-            const prevNode = node.prev
-            prevNode.next = node.next
+    public deleteNode(data : T) : boolean{
+        let deleted : boolean = false
+        
+        if(!this.head)
+            return deleted
+        
+        while(this.head && this.head.data === data){
+            deleted = true;
+            this.head = this.head.next;
+            if (this.head) {
+                this.head.prev = null;
+            }
         }
+        
+        return deleted
     }
 
     /**

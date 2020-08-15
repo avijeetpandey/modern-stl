@@ -11,5 +11,8 @@ describe('LinkedList Tests ',()=>{
         expect(list.find(10)).toBe(true);
         expect(list.findIndex(12)).toBe(0)
         expect(list.size()).toBe(3)
+        expect(list.deleteNode(12)).toBe(true)
+        expect(list.deleteNode(42)).toBe(false)
+        expect(list.size()).toBe(2)
     })
 })
