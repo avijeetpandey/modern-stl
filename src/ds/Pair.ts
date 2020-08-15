@@ -1,4 +1,7 @@
 /* Implementation of pair class Here */
+/**
+ * @author {Avijeet Pandey}
+ */
 
 export class Pair<U, V> {
   private _first: U;

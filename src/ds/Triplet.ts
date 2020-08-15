@@ -1,3 +1,7 @@
+/**
+ * @author {Avijeet Pandey}
+ */
+
 /* Implementtaion of Triplet class  */
 export class Triplet<F, S, T> {
   private _first: F;
@@ -32,5 +36,4 @@ export class Triplet<F, S, T> {
     let ls = [this._first, this._second, this._third];
     return ls;
   }
-
 }

@@ -1,6 +1,5 @@
 /**
- * Implementation of LinkedList Class
- * Operations -> insert , append , delete , find , size , isEmpty, appendToEnd
+ * @author {Avijeet Pandey}
  */
 
 /**
