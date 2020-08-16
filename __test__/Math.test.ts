@@ -1,4 +1,4 @@
-import {fast_exponentiation} from '../src/algoritms/Maths'
+import {fast_exponentiation} from '../src/algorithms/Maths'
 
 describe('fast_exp test',()=>{
     test('Init',()=>{

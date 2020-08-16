@@ -1,4 +1,4 @@
-import {Point} from './../src/algoritms/Geometry'
+import {Point} from './../src/algorithms/Geometry'
 
 describe('Point Class Test ',()=>{
     test('Point Init',()=>{
