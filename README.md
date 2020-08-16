@@ -14,11 +14,7 @@ This package contains implementations of various searching,sorting, mathematics 
 - DSU (Disjoint Set Union)
 - Fenwick Tree
 - Graph
-- HashMap
-- Set (Renamed to HashSet to avoid conflict)
-- Heap 
-  - MinHeap
-  - MaxHeap
+- Heap
 - Queue
 - Stack
 - Segment Tree
@@ -27,7 +23,7 @@ This package contains implementations of various searching,sorting, mathematics 
 ### Algorithms Implemented :astronaut:
 - Searching Algorithms - LinearSearch , BinarySearch
 - Graph Traversal Algorithms - DFS , BFS , SSSP 
-- Geometrical Algorithms
+- Geometrical Algorithms - Point Based Operations , vector operations , line based operations , Area and volume based operations
 - Common Mathematics Algorithms 
 - String Processing Algorithms
 - Bit Manipulation Algorithms
