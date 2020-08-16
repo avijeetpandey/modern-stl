@@ -7,7 +7,7 @@ import {
   max_element,
   min_element,
   min_max,
-} from "./algoritms/Search";
+} from "./algorithms/Search";
 
 /* Utils Module Imports */
 import {
