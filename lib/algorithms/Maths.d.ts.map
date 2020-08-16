@@ -1,1 +1,1 @@
-{"version":3,"file":"Maths.d.ts","sourceRoot":"","sources":["../../src/algorithms/Maths.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,mBAAmB,MAAO,MAAM,KAAK,MAAM,KAAG,MAS1D,CAAC"}
+{"version":3,"file":"Maths.d.ts","sourceRoot":"","sources":["../../src/algorithms/Maths.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,mBAAmB,MAAO,MAAM,KAAK,MAAM,KAAG,MAS1D,CAAC;AAGF,eAAO,MAAM,GAAG,MAAM,MAAM,KAAO,MAAM,KAAI,MAE5C,CAAA;AAED,eAAO,MAAM,QAAQ,MAAM,MAAM,KAAQ,MAAM,KAAI,MAElD,CAAA;AAED,eAAO,MAAM,QAAQ,MAAM,MAAM,KAAK,MAAM,KAAI,MAE/C,CAAA"}
