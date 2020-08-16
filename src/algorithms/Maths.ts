@@ -1,5 +1,6 @@
 /*
-GCD , LCM , factors  , add , subtract , multiply , fast exponentiation , generate fibonacci numbers , seive and segmented sieve
+GCD , LCM , factors  , add , subtract , multiply , fast exponentiation , generate fibonacci numbers , 
+seive and segmented sieve , factorial function
 */
 export const fast_exponentiation = (a: number, b: number): number => {
   if (b === 0) return 1;

@@ -60,18 +60,18 @@ export class Point implements IPoint {
 }
 
 /** Line Class and its Operations */
-// export interface ILine{
-//     isParallel(L1 :Line , L2 : Line) : boolean
-//     isPerpendicular(L1 : Line , L2 : Line) : boolean
-//     angle(L1:Line,L2:Line) : number
-//     intersect(L1:Line,L2:Line) : boolean
-// }
-
-// class Line implements ILine{
-
-// }
 
 /** Triangle class and its implementation */
+export interface ITriangle{
+  sideOne : number
+  sideTwo : number
+  sideThree : number
+  isRightAngled() : boolean
+  perimeter() : number
+  area() : number
+  hasZeroArea() : boolean
+  type() : string
+}
 
 /** Plane Class */
 
