@@ -1,10 +1,12 @@
-const search = (key: any, array: Array<any>) => {
+import {max , min} from '../utils/Utils'
+
+export const search = (key: any, array: Array<any>) => {
   for (let i of array) if (i === key) return true;
   return false;
 };
 
 // implementation of binary search function that returns the index of the key if present other-wise returns -1
-const binary_search = (key: any, array: Array<any>) => {
+export const binary_search = (key: any, array: Array<any>) => {
   array = array.sort();
   console.log(array);
   let end = array.length - 1;
@@ -19,24 +21,33 @@ const binary_search = (key: any, array: Array<any>) => {
 };
 
 
-const upper_bound=()=>{
+export const upper_bound=()=>{
 
 }
 
-const lower_bound=()=>{
+export const lower_bound=()=>{
 
 }
 
-const max_element = ()=>{
+export const max_element = (array : number[]) : number =>{
+  let m_element : number = array[0]
+  for(let i of array)
+    m_element = max(m_element,i)
 
+  return m_element
 }
 
-const min_element=()=>{
+export const min_element=( array : number[]) : number =>{
+  let m_element : number = array[0]
+  for(let i of array)
+    m_element = min(m_element,i)
 
+  return m_element
 }
 
-const min_max=()=>{
-
+export const min_max=(array:number[]):number[]=>{
+    let elems : number[] = [max_element(array),min_element(array)]
+    return elems
 }
 
-export { search, binary_search,upper_bound,lower_bound,max_element,min_element,min_max};
+
