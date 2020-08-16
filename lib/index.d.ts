@@ -4,6 +4,7 @@ import { Pair } from './ds/Pair';
 import { Triplet } from './ds/Triplet';
 import { LinkedList } from './ds/LinkedList';
 import { Stack } from './ds/Stack';
+import { Point, Vector } from './algorithms/Geometry';
 /**
  * Utility Functions Export
  */
@@ -11,5 +12,5 @@ export { search, binary_search, lower_bound, upper_bound, max_element, min_eleme
 /**
  * Data Structures Export
  */
-export { Pair, Triplet, LinkedList, Stack };
+export { Pair, Triplet, LinkedList, Stack, Point, Vector };
 //# sourceMappingURL=index.d.ts.map
