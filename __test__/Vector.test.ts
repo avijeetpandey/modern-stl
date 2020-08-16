@@ -29,4 +29,11 @@ describe('Vector Tests : ',()=>{
         expect(b.magnitude()).toBe(3.74166)
         expect(a.angle(b)).toBe(-0.3669)
     })
+
+    test('Geometric orientation Test',()=>{
+        let a : Vector = new Vector(5,10,0)
+        let b : Vector = new Vector(6,-3,0)
+        expect(a.isPerpendicularTo(b)).toBe(true)
+        expect(a.isParallelTo(b)).toBe(false)
+    })
 })
