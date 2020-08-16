@@ -155,7 +155,7 @@ export class Vector implements Ivector {
     m = Math.sqrt(
       Math.pow(this.x, 2) + Math.pow(this.y, 2) + Math.pow(this.z, 2)
     );
-    return m;
+    return Number(m.toFixed(5))
   }
 
   /**
@@ -182,7 +182,7 @@ export class Vector implements Ivector {
    */
 
   public crossProduct(v: Vector): Vector {
-    let xcap: number = this.y * v.z - this.y * v.y;
+    let xcap: number = this.y * v.z - this.z * v.y;
     let ycap: number = this.z * v.x - this.x * v.z;
     let zcap: number = this.x * v.y - this.y * v.x;
 
@@ -211,7 +211,7 @@ export class Vector implements Ivector {
   public angle(v: Vector): number {
     let cosAngle: number =
       this.dotProduct(v) / (this.magnitude() * v.magnitude());
-    return cosAngle;
+    return Number(cosAngle.toFixed(5))
   }
 
   /**
