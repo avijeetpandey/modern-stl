@@ -72,9 +72,57 @@ export class Point implements IPoint {
 
 /** Triangle class and its implementation */
 
+
+
 /** Plane Class */
 
 /** Vector class  */
+export interface Ivector{
+  crossProduct() : Vector
+  dotProduct() : number ,
+  isParallelTo(v : Vector) : boolean
+  isPerpendicularTo(v:Vector)  : boolean 
+  isUnitVector() : boolean
+  add(v:Vector)  : Vector
+  multiplyWith(value : number) : Vector 
+  show() : string
+  magnitude() : number
+  angle(v:Vector) : number
+}
+
+class Vector implements Ivector{
+  private _x : number
+  private _y : number
+  private _z : number
+
+  constructor(x:number , y:number , z:number){
+    this._x = x
+    this._y = y
+    this._z = z
+  }
+  /** Getter Functions */
+  get x() : number {
+    return this._x
+  }
+  get y() : number {
+    return this._y
+  }
+  get z() : number {
+    return this._z
+  }
+
+  /** Functions implementation of IVector Interface */
+  /**
+   * @returns {vector} in string format
+   */
+  public show() : string {
+    const vector : string  = `${this._x}i + ${this._y}j + ${this._z}k `
+    return vector
+  }
+
+  
+
+}
 
 /** Area class and its operations */
 
