@@ -36,6 +36,7 @@ import {Pair} from './ds/Pair'
 import {Triplet} from './ds/Triplet'
 import {LinkedList} from './ds/LinkedList'
 import {Stack} from './ds/Stack'
+import {Point,Vector} from './algorithms/Geometry'
 
 /**
  * Utility Functions Export
@@ -76,5 +77,7 @@ export {
   Pair,
   Triplet,
   LinkedList,
-  Stack
+  Stack,
+  Point,
+  Vector
 }
