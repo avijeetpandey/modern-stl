@@ -1,3 +1,0 @@
-/*
-Matrix class and its various operations including matrix operations
-*/
