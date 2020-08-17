@@ -10,16 +10,16 @@ export interface IQueue<T>{
     isEmpty()  : boolean
     front() : T
 }
-export class Queue<T>{
+export class Queue<T> implements IQueue<T>{
     private q : LinkedList<T>
-    constructor(data : T){
+    constructor(){
         this.q = new LinkedList<T>()
     }
 
     /**
      * Basic Queue Operations
      */
-    get front() : T{
+    public front() : T{
         return this.q.getHead()
     }
 
@@ -37,5 +37,9 @@ export class Queue<T>{
 
     public toList() : T[]{
         return this.q.list()
+    }
+
+    public isEmpty() : boolean{
+        return this.q.size() > 0 ? false : true
     }
 }
