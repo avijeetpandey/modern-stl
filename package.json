@@ -1,7 +1,7 @@
 {
   "name": "modern-stl",
-  "version": "1.0.18",
-  "description": "Implementations of data structures and algorithms , inspired by C++ STL in javascript",
+  "version": "1.0.19",
+  "description": "Implementations of data structures and algorithms , inspired by C++ STL in javascript/Typescript",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
@@ -15,7 +15,9 @@
   "keywords": [
     "ds",
     "algorithms",
-    "javascript"
+    "javascript",
+    "Typescript",
+    "competetive programming"
   ],
   "author": "Avijeet Pandey",
   "license": "MIT",
