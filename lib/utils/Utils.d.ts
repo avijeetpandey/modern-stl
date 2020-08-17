@@ -1,0 +1,20 @@
+declare const min: (first: number, second: number) => number;
+declare const max: (first: number, second: number) => number;
+declare const reverse_till: (item: Array<any>, end_point: number) => void;
+declare const accumulate: (item: Array<any>, initial_value?: any) => any;
+declare const count: (key: number, ls: any) => number;
+declare const distance: (item: any) => void;
+declare const isEven: (number: number) => boolean;
+declare const isOdd: (number: number) => boolean;
+declare const isMultipleOf: (first: number, second: number) => boolean;
+declare const isPowerOf: (first: number, second: number) => void;
+declare const isPerfectSquare: (number: number) => void;
+declare const isPrime: (number: number) => boolean;
+declare const square: (n: number) => number;
+declare const make_triplets: (n: number) => number[];
+declare const isAlphaNumeric: (item: string) => void;
+declare const isVowel: (item: String) => void;
+declare const isConsonant: (item: String) => void;
+declare const isLeapYear: (number: number) => void;
+export { isAlphaNumeric, isEven, isConsonant, isLeapYear, isMultipleOf, isOdd, isPerfectSquare, isPowerOf, isPrime, isVowel, max, min, square, accumulate, reverse_till, distance, count, make_triplets };
+//# sourceMappingURL=Utils.d.ts.map
