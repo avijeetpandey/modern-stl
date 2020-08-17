@@ -19,6 +19,7 @@ interface ILinkedList<T> {
     size(): number;
     list(): T[];
     toString(): string;
+    getHead(): any;
 }
 /**
  * Definition of the LinkedList Class
@@ -66,7 +67,14 @@ export declare class LinkedList<T> implements ILinkedList<T> {
      * @returns {list to elements as string}
      */
     toString(): string;
+    /**
+   * @returns {size of the new linkedlist formed from list of elements}
+   */
     fromList(list: T[]): number;
+    /**
+     * @returns {head} of the linked List
+     */
+    getHead(): any;
 }
 export {};
 //# sourceMappingURL=LinkedList.d.ts.map

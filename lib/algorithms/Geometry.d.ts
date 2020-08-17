@@ -29,9 +29,17 @@ export declare class Point implements IPoint {
      */
     slope(P2: Point): number;
 }
-/** Line Class and its Operations */
 /** Triangle class and its implementation */
-/** Plane Class */
+export interface ITriangle {
+    sideOne: number;
+    sideTwo: number;
+    sideThree: number;
+    isRightAngled(): boolean;
+    perimeter(): number;
+    area(): number;
+    hasZeroArea(): boolean;
+    type(): string;
+}
 /** Vector class  */
 export interface Ivector {
     crossProduct(v: Vector): Vector;
@@ -115,6 +123,4 @@ export declare class Vector implements Ivector {
      */
     isParallelTo(v: Vector): boolean;
 }
-/** Area class and its operations */
-/** Volume class and its Functions */
 //# sourceMappingURL=Geometry.d.ts.map
