@@ -1,5 +1,5 @@
 import { search, binary_search, max_element, min_element, min_max } from "./algorithms/Search";
-import { isAlphaNumeric, isEven, isConsonant, isLeapYear, isMultipleOf, isOdd, isPerfectSquare, isPowerOf, isPrime, isVowel, max, min, square, accumulate, reverse_till, distance, count } from './utils/Utils';
+import { isEven, isMultipleOf, isOdd, isPrime, max, min, square, accumulate, reverse_till, count } from './utils/Utils';
 import { Pair } from './ds/Pair';
 import { Triplet } from './ds/Triplet';
 import { LinkedList } from './ds/LinkedList';
@@ -9,7 +9,7 @@ import { Point, Vector } from './algorithms/Geometry';
 /**
  * Utility Functions Export
  */
-export { search, binary_search, max_element, min_element, min_max, isAlphaNumeric, isEven, isConsonant, isLeapYear, isMultipleOf, isOdd, isPerfectSquare, isPowerOf, isPrime, isVowel, max, min, square, accumulate, reverse_till, distance, count, };
+export { search, binary_search, max_element, min_element, min_max, isEven, isMultipleOf, isOdd, isPrime, max, min, square, accumulate, reverse_till, count, };
 /**
  * Data Structures Export
  */
