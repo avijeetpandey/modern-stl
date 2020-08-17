@@ -39,10 +39,6 @@ const count=(key:number,ls:any)=>{
     return c
 }
 
-// function to find distance
-const distance=(item:any)=>{
-
-}
 
 /*  Common mathematical utility functions */
 
@@ -61,16 +57,6 @@ const isOdd=(number: number)=>{
 // function to check isMultiple of
 const isMultipleOf=(first : number,second:number)=>{
     return first % second ==0 ? true : false
-}
-
-// function to check is power of
-const isPowerOf=(first:number ,second:number)=>{
-
-}
-
-// function to check perfect square
-const isPerfectSquare=(number:number)=>{
-
 }
 
 // function to check is prime
@@ -104,44 +90,17 @@ const make_triplets=(n:number)=>{
 
 /* common character based utility functions */
 
-//function to check is alphanumeric
-const isAlphaNumeric=(item : string)=>{
-
-}
-
-// function to check is vowel
-const isVowel=(item:String)=>{
-
-}
-
-// function to check is consonant
-const isConsonant=(item:String)=>{
-
-}
-
-
-/* common date based utitlity functions */
-const isLeapYear = (number : number)=>{
-
-}
 
 export {
-    isAlphaNumeric,
     isEven,
-    isConsonant,
-    isLeapYear,
     isMultipleOf,
     isOdd,
-    isPerfectSquare,
-    isPowerOf,
     isPrime,
-    isVowel,
     max,
     min,
     square,
     accumulate,
     reverse_till,
-    distance,
     count,
     make_triplets
 }

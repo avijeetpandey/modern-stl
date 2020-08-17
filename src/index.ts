@@ -9,22 +9,15 @@ import {
 
 /* Utils Module Imports */
 import {
-    isAlphaNumeric,
     isEven,
-    isConsonant,
-    isLeapYear,
     isMultipleOf,
     isOdd,
-    isPerfectSquare,
-    isPowerOf,
     isPrime,
-    isVowel,
     max,
     min,
     square,
     accumulate,
     reverse_till,
-    distance,
     count
 } from './utils/Utils';
 
@@ -47,22 +40,15 @@ export {
     max_element,
     min_element,
     min_max,
-    isAlphaNumeric,
     isEven,
-    isConsonant,
-    isLeapYear,
     isMultipleOf,
     isOdd,
-    isPerfectSquare,
-    isPowerOf,
     isPrime,
-    isVowel,
     max,
     min,
     square,
     accumulate,
     reverse_till,
-    distance,
     count, 
 }
 
