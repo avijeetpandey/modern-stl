@@ -21,6 +21,7 @@ interface ILinkedList<T> {
   size(): number;
   list(): T[];
   toString(): string;
+  getHead() : any
 }
 
 /**
@@ -141,11 +142,21 @@ export class LinkedList<T> implements ILinkedList<T> {
   public toString(): string {
     return this.list().toString();
   }
-
+    /**
+   * @returns {size of the new linkedlist formed from list of elements}
+   */
   public fromList(list: T[]): number {
     list.forEach((value: T) => {
       this.insertAtEnd(value);
     });
     return this.size();
   }
+
+  /**
+   * @returns {head} of the linked List
+   */
+  public getHead() : any{
+    return this.head?.data
+  }
+
 }
