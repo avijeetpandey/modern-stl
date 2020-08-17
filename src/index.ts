@@ -2,8 +2,6 @@
 import {
   search,
   binary_search,
-  lower_bound,
-  upper_bound,
   max_element,
   min_element,
   min_max,
@@ -36,6 +34,7 @@ import {Pair} from './ds/Pair'
 import {Triplet} from './ds/Triplet'
 import {LinkedList} from './ds/LinkedList'
 import {Stack} from './ds/Stack'
+import {Queue} from './ds/Queue'
 import {Point,Vector} from './algorithms/Geometry'
 
 /**
@@ -45,8 +44,6 @@ import {Point,Vector} from './algorithms/Geometry'
 export {
     search,
     binary_search,
-    lower_bound,
-    upper_bound,
     max_element,
     min_element,
     min_max,
@@ -79,5 +76,6 @@ export {
   LinkedList,
   Stack,
   Point,
-  Vector
+  Vector,
+  Queue
 }

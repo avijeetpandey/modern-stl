@@ -21,14 +21,6 @@ export const binary_search = (key: any, array: Array<any>) => {
 };
 
 
-export const upper_bound=()=>{
-
-}
-
-export const lower_bound=()=>{
-
-}
-
 export const max_element = (array : number[]) : number =>{
   let m_element : number = array[0]
   for(let i of array)

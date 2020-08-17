@@ -59,7 +59,6 @@ export class Point implements IPoint {
   }
 }
 
-/** Line Class and its Operations */
 
 /** Triangle class and its implementation */
 export interface ITriangle{
@@ -73,7 +72,6 @@ export interface ITriangle{
   type() : string
 }
 
-/** Plane Class */
 
 /** Vector class  */
 export interface Ivector {
@@ -232,7 +230,3 @@ export class Vector implements Ivector {
     return this.angle(v) === 1;
   }
 }
-
-/** Area class and its operations */
-
-/** Volume class and its Functions */
