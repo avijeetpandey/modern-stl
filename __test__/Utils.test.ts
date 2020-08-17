@@ -4,6 +4,7 @@ import {
   accumulate,
   isEven,
   isOdd,
+  power
 } from "../src/utils/Utils";
 
 describe("Util tests ", () => {
@@ -29,5 +30,10 @@ describe("Util tests ", () => {
   test("isOdd", () => {
     expect(isOdd(23)).toBe(true);
     expect(isOdd(14)).toBe(false);
+  });
+
+  test("power", () => {
+    expect(power(2,4).toFixed(8));
+    expect(power(3,3).toFixed(27));
   });
 });

@@ -9,5 +9,6 @@ declare const isMultipleOf: (first: number, second: number) => boolean;
 declare const isPrime: (number: number) => boolean;
 declare const square: (n: number) => number;
 declare const make_triplets: (n: number) => number[];
-export { isEven, isMultipleOf, isOdd, isPrime, max, min, square, accumulate, reverse_till, count, make_triplets };
+declare const power: (n1: number, n2: number) => number;
+export { isEven, isMultipleOf, isOdd, isPrime, max, min, square, accumulate, reverse_till, count, make_triplets, power };
 //# sourceMappingURL=Utils.d.ts.map

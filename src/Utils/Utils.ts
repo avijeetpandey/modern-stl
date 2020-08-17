@@ -1,6 +1,6 @@
 /*
  Min , Max function ,  reverse_till , accumulate , count , next_permutation , distance , even , odd , isMultiple , isPower 
-isAlphaNumeric , isVowel , isConsonant , isPrime , generate with parameters , make_triplets   
+isAlphaNumeric , isVowel , isConsonant , isPrime , generate with parameters , make_triplets, power   
 */
 
 
@@ -88,6 +88,16 @@ const make_triplets=(n:number)=>{
     return [a,b,c]
 }
 
+
+//function to calculate the power
+
+const power = (n1: number, n2: number): number => {
+    //base case
+    if(n2 === 0) return n1;
+    else return (n1*power(n1, n2-1));
+}
+
+
 /* common character based utility functions */
 
 
@@ -102,5 +112,6 @@ export {
     accumulate,
     reverse_till,
     count,
-    make_triplets
+    make_triplets,
+    power
 }
