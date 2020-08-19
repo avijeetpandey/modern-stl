@@ -96,7 +96,14 @@ const power = (n1: number, n2: number): number => {
     if(n2 === 0) return n1;
     else return (n1*power(n1, n2-1));
 }
-
+//function to get the random number between a given range.
+const random = (n1: number, n2: number): number => {
+    if(n2 == null)  {
+        n2 = n1;
+        n1 = 0;
+    }
+    return n1 + Math.floor(Math.random() * (n2-n1 +1));
+}
 
 /* common character based utility functions */
 
@@ -113,5 +120,6 @@ export {
     reverse_till,
     count,
     make_triplets,
-    power
+    power,
+    random
 }

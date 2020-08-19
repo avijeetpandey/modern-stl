@@ -6,6 +6,7 @@ describe("LinkedList Tests ", () => {
     list.insertAtBegin(5);
     list.insertAtBegin(12);
     list.insertAtEnd(10);
+    expect(list.getLast()).toBe(12);
     expect(list.list()).toStrictEqual([12, 5, 10]);
     expect(list.find(7)).toBe(false);
     expect(list.find(10)).toBe(true);
@@ -15,5 +16,6 @@ describe("LinkedList Tests ", () => {
     expect(list.deleteNode(42)).toBe(false);
     expect(list.size()).toBe(2);
     expect(list.fromList([1, 2, 3, 4])).toBe(6);
+    expect(list.getHead()).toBe(5);
   });
 });

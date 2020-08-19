@@ -21,7 +21,8 @@ interface ILinkedList<T> {
   size(): number;
   list(): T[];
   toString(): string;
-  getHead() : any
+  getHead() : any;
+  
 }
 
 /**
@@ -159,4 +160,16 @@ export class LinkedList<T> implements ILinkedList<T> {
     return this.head?.data
   }
 
+// /**
+//  * @returns the last node 
+//  */
+//   public getLast():any {
+//     let node = this.head;
+//     if(node === null) return null;
+
+//     while(node?.next !=null) {
+//       node = node.next;
+//     }
+//     return node;
+//   }
 }
