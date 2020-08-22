@@ -4,7 +4,8 @@ import {
   accumulate,
   isEven,
   isOdd,
-  power
+  power,
+  isPeak
 } from "../src/utils/Utils";
 
 describe("Util tests ", () => {
@@ -35,5 +36,11 @@ describe("Util tests ", () => {
   test("power", () => {
     expect(power(2,4).toFixed(8));
     expect(power(3,3).toFixed(27));
+  });
+  
+  test("isPeak", ()=> {
+    expect(isPeak(2)).toBe(true);
+    expect(isPeak(8)).toBe(true);
+    expect(isPeak(14)).toBe(false);
   });
 });

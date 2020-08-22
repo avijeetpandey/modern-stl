@@ -105,6 +105,25 @@ const random = (n1: number, n2: number): number => {
     return n1 + Math.floor(Math.random() * (n2-n1 +1));
 }
 
+//function to check whether the given number is peak number or not
+const isPeak = (n: number) => {
+    if(n <= 0) return false;
+    if(n == 1) return true;
+
+    while(n >= 2) {
+        if(n % 2 == 0) {
+            n/=2;
+        }else if (n % 3 == 0) {
+            n/=3;
+        }else if(n % 5 == 0) {
+            n/=5;
+        }else {
+            return false;
+        }
+    }
+    return true;
+} 
+
 /* common character based utility functions */
 
 
@@ -121,5 +140,6 @@ export {
     count,
     make_triplets,
     power,
-    random
+    random,
+    isPeak
 }

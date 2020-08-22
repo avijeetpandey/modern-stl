@@ -159,17 +159,4 @@ export class LinkedList<T> implements ILinkedList<T> {
   public getHead() : any{
     return this.head?.data
   }
-
-// /**
-//  * @returns the last node 
-//  */
-//   public getLast():any {
-//     let node = this.head;
-//     if(node === null) return null;
-
-//     while(node?.next !=null) {
-//       node = node.next;
-//     }
-//     return node;
-//   }
 }
