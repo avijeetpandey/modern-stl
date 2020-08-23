@@ -1,6 +1,6 @@
 /*
  Min , Max function ,  reverse_till , accumulate , count , next_permutation , distance , even , odd , isMultiple , isPower 
-isAlphaNumeric , isVowel , isConsonant , isPrime , generate with parameters , make_triplets   
+isAlphaNumeric , isVowel , isConsonant , isPrime , generate with parameters , make_triplets, power   
 */
 
 
@@ -88,6 +88,42 @@ const make_triplets=(n:number)=>{
     return [a,b,c]
 }
 
+
+//function to calculate the power
+
+const power = (n1: number, n2: number): number => {
+    //base case
+    if(n2 === 0) return n1;
+    else return (n1*power(n1, n2-1));
+}
+//function to get the random number between a given range.
+const random = (n1: number, n2: number): number => {
+    if(n2 == null)  {
+        n2 = n1;
+        n1 = 0;
+    }
+    return n1 + Math.floor(Math.random() * (n2-n1 +1));
+}
+
+//function to check whether the given number is peak number or not
+const isPeak = (n: number) => {
+    if(n <= 0) return false;
+    if(n == 1) return true;
+
+    while(n >= 2) {
+        if(n % 2 == 0) {
+            n/=2;
+        }else if (n % 3 == 0) {
+            n/=3;
+        }else if(n % 5 == 0) {
+            n/=5;
+        }else {
+            return false;
+        }
+    }
+    return true;
+} 
+
 /* common character based utility functions */
 
 
@@ -102,5 +138,8 @@ export {
     accumulate,
     reverse_till,
     count,
-    make_triplets
+    make_triplets,
+    power,
+    random,
+    isPeak
 }

@@ -21,7 +21,8 @@ interface ILinkedList<T> {
   size(): number;
   list(): T[];
   toString(): string;
-  getHead() : any
+  getHead() : any;
+  
 }
 
 /**
@@ -158,5 +159,4 @@ export class LinkedList<T> implements ILinkedList<T> {
   public getHead() : any{
     return this.head?.data
   }
-
 }

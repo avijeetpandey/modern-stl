@@ -15,5 +15,6 @@ describe("LinkedList Tests ", () => {
     expect(list.deleteNode(42)).toBe(false);
     expect(list.size()).toBe(2);
     expect(list.fromList([1, 2, 3, 4])).toBe(6);
+    expect(list.getHead()).toBe(5);
   });
 });
